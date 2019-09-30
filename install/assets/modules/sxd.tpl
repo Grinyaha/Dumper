@@ -1,6 +1,6 @@
 // <?php 
 /**
- * SypexDumper pro 2.2
+ * SypexDumper
  * 
  * Backup and restore MySQL
  * 
