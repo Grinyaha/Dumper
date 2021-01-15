@@ -23,7 +23,7 @@ if(!$modx->hasPermission('bk_manager')) {
 
 
 echo '
-<link rel="stylesheet" type="text/css" href="https://www.diamondjoy.ru/manager/media/style/default/css/styles.min.css?v=12"/>
+<link rel="stylesheet" type="text/css" href="'.MODX_SITE_URL.'manager/media/style/default/css/styles.min.css?v=12"/>
 <h1>Sypex Dumper pro 2.3</h1>
 <div class="sectionHeader">Backup and restore MySQL</div>
 <div class="sectionBody" id="lyr4" style="margin-left:20px"> 
