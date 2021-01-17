@@ -1412,7 +1412,7 @@ class SypexDumper {
                 }
                 closedir($dh);
                 // Сортируем файлы по дате и удаляем самые старые
-                if (!empty($this->JOB['del_count'])){
+                if (!empty($this->JOB['del_count']) && is_array($this->JOB['del_count'])){
                     ksort($files);
                     $file_to_delete = count($files) - $this->JOB['del_count'];
                     foreach ($files AS $file){
