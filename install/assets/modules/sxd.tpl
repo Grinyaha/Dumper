@@ -5,7 +5,7 @@
  * Backup and restore MySQL
  * 
  * @category	module
- * @version 	2.3
+ * @version 	3.0 (2.3.2)
  * @license 	http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)
  * @internal	@properties
  * @internal	@guid docmsdfgewrcrewan435243542tf542t5t	
@@ -24,7 +24,7 @@ if(!$modx->hasPermission('bk_manager')) {
 
 echo '
 <link rel="stylesheet" type="text/css" href="'.MODX_SITE_URL.'manager/media/style/default/css/styles.min.css?v=12"/>
-<h1>Sypex Dumper pro 2.3</h1>
+<h1>Sypex Dumper Evo 3.0</h1>
 <div class="sectionHeader">Backup and restore MySQL</div>
 <div class="sectionBody" id="lyr4" style="margin-left:20px"> 
 <iframe src="/assets/modules/sxd/" width="586" height="462" frameborder="0" style="margin:0;"></iframe>
